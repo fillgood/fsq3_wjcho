@@ -1,5 +1,5 @@
  1. Day1 
- 컴퓨터의역사,구조  
+ [컴퓨터의역사,구조](https://github.com/fillgood/fsq3_wjcho/blob/master/class/001_day%2820160905%29/README.md)  
  2. Day2 
  논리연산,운영체제_files  
  3. Day3 
