@@ -3,7 +3,9 @@
 ### [시작하기전](https://www.youtube.com/watch?v=d2D-H8v-gJA) 
 
 1. 컴퓨터의 역사 
+
 	a. [진공관](http://jalbum.com/INF_LEARN/2856) 
+
 		
 	![enter image description here](http://jalbum.com/files/attach/images/2615/856/002/40737f1635d314c5c9996d9e4ac384b8.jpg)
 
