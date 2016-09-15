@@ -16,11 +16,13 @@
 	![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Transistors-white.jpg/350px-Transistors-white.jpg)
 
 	일종의 전자 스위치(무접점 스위치)의 역할을 하는 반도체 소자로서 미국 벨 전화연구소의 바딘, 브러틴, 쇼클	리 등에 의해 발명되었으며, Transfer of a signal through a varistor의 약자이다. 반도체 소자로 게르마늄이나 실리콘을 사용하며 증폭, 발진, 변조등의 작용과 고속스위칭 소자로도 이용된다. 보통 트랜지스터를 읽거나, 회로상에 표기할 때에는 일반적으로TR이라는 약자를 많이 사용한다
+
+
 	c. [집적회로(IC)](https://ko.wikipedia.org/wiki/%EC%A7%91%EC%A0%81_%ED%9A%8C%EB%A1%9C)
  
  	![enter image description here](http://cfile26.uf.tistory.com/original/2313413B53CF746D072FBC)
 	
-	Integrated Circuit) 또는 모놀리식 집적회로, 칩, 마이크로칩, IC는 실리콘 같은 반도체로 만든 작은 판 위의 전자회로의 집합을 말한다.
+	IC (Integrated Circuit) 또는 모놀리식 집적회로, 칩, 마이크로칩, IC는 실리콘 같은 반도체로 만든 작은 판 위의 전자회로의 집합을 말한다.
 
 2.컴퓨터의 구성
  
