@@ -1,6 +1,7 @@
 1. 컴퓨터의 연산
 
    * [부호비트 및 보수표현](http://bloger.kr/34)
+
      ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGc_h21XwDhlyUXFC2G4mtQd6bVMQ4nrdqKdsgUDFBggt7X1V)
      ![](http://cfile3.uf.tistory.com/image/2247934C57148AA40D2774)
      ![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOFEb7rZxZUDYacrssJ96ylVUWinY23p3Lpmokdclw65fQ4G_mdQ)
@@ -10,16 +11,25 @@
    * [bit Mask 란?](http://blog.naver.com/PostView.nhn?blogId=skout123&logNo=50128841464)
    * & vs && 과 | vs ||과 ~ vs ! 의 사용시 주의 
 2. 운영체제
+
    1. 운영체제 
+
       * 유닉스계열 : UNIX LINUX(Ubuntu,CentOS,Fedora) BSD MACOSX
       * 윈도우계열
+
    2. 운영체제의 기능 
+
       * 시스템하드웨어관리
+
         사용자 프로그램의 오류나 잘못된 자원사용감시 입출력 장치 등으 자원에 대한 연산과제어 관리
+
       * (가상)시스템 서비스 제공
+
         사용자에게 컴퓨터의 프로그램을 쉽고 효율적으로 실행 할수 있는 환경제공
         예를 들어 데스크탑화면..
+
       * 자원관리
+
         컴퓨터 시스템 하드웨어 및 소프트웨어 자원을 여러 사용자 간에 효율적 할당,관리보호
         CPU<-->프로그램(프로세스(실제로 실행중인 프로그램))(주기억장치내)<--프로그램(보조기억장치내)
         1. 프로세스 스케쥴링(자원관리)
