@@ -1,7 +1,7 @@
 Day2 yagom 조성규
 
-주기억장치의 주소체계확인
-http://blog.naver.com/PostView.nhn?blogId=andjfrrk&logNo=20017501803
+
+	
 
 - 컴퓨터의 연산
 0과1 이진수를 가지고 여러가지하고 있다

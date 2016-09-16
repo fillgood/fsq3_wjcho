@@ -39,6 +39,7 @@
 * [컴퓨터의 역사](https://ko.wikipedia.org/wiki/)
 * [컴퓨터의 역사-2](http://it.donga.com/6885/)
 * [개인용_컴퓨터](https://ko.wikipedia.org/wiki/)
+* [진법변환(진수변환) 정리](http://blog.naver.com/PostView.nhn?blogId=andjfrrk&logNo=20017501803)
 * [이진법(二進法, binary)](https://ko.wikipedia.org/wiki/이진법)
 * [IEEE_754 부동소수표기](https://ko.wikipedia.org/wiki/IEEE_754)
 * [한글 인코딩의 역사와 유니코드](http://d2.naver.com/helloworld/19187)
