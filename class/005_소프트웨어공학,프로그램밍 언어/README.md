@@ -1,145 +1,188 @@
-- 소프트웨어 공학
-공학이란? 사람에게 유용한것을 만드는 학문
-소프트웨어의 개발,운용,유지보수 및 폐기에 대한 체계적인 접근 방법을 정리해놓은 학문
--요구공학
--아키텍쳐
--개발 방법론
--테스팅
--프로세스
--형상관리
--프로젝트 관리
--유지보수
-소프트웨어 개발 생명주기 모델
--Software Development Life Cycle Model
--소프트웨어를 어떻게 개발할 것인가에 대한 전체적인 흐름
--주먹구구식,폭포수,프로토타이핑,나선형
-폭포수 모델
-프로토타이핑 모텔
-완성도가 떨어 질 수 있다
-작은 프로젝트에 비효율적이다
-고객과의 의사소통 비용이 많이 발생한다
-나선형 모델
+## 소프트웨어 공학
 
-- 소프트웨어 개발 방법론
--소프트웨어를 생산하는데 필요한 반복적인 과정을을 정리한 것
--구조적 프로그래밍,개체지향 ,고속개발 방법론,익스트림 프로그래밍(Agile),스크럼(Agile) ,UP
-애자일 개발 프로세스
-* 다른 고전적인 방법론과 구별되는 가장 큰 차이점은
-less document-oriented
-즉 문서를 통한 개발 방법이 아니라 ,Code-oriented 실질적인 코딩을 통한 방법론
-*앞을 예측하여 개발을 하지 않고,
-일정한 주기를 가지고 끊임없이 프로토 타입을 만들어내며 그때 그때 필요한 요구를 더하고 수정하여
-하나의 커다란 소프트웨어를 개방해 나가는 Adaptive style
-*특정한 개발 방법론을 가리키는 말이 아니다
-애자일(Agile =기민한,좋은 것을 빠르고 낭비없게 만드는것) 개발을 가능하게 해주는 다양한 방법론 전체를 일컫는 말
-UML
-통합 모델링 언어
-Unified Modeling Language
-표준화된 범용 모델링 언어
-객체지향 소프트웨어 집약 시스템을 개발 할 때 산출물 명세화,시각화,문서화 할때 사용
-TTD
-테스트 주도 개발
-Test-driven development
-매우 짧은 개발 사이클을 반복하는 소프트웨어 개발 프로세스 중 하나이다.
-1.결함을 점검하는 자동화된 테스트 케이스를 작성
-2.케이스를 통과하기 위한 최소한의 양의 코드를 생성
-3.새 코드를 표준에 맞도록 리픽토링
-PDD
-계획 기반 개발
-Plan-driven development
-계획을 세우고 그 계획을 실천하는데에 많은 시간과 노력을 할애하는 개발 방법이다
-형상관리
-Software Configuration Management
-소프트웨어 개발 및 유지보수 과정에서 발생하는 소스코드,문서,인터페이스 등 각종 결과물에 대해
-형상을 만들고 이들 형상에 대한 변경을 체계적으로 관리,제어하기 위한 활동
-버전관리
-형상관리의 일무
-일반적인 소프트웨어 소스 코드만의 형상을 관리하는 것
-형상관리 툴
-SVN(Subversion),Git,Mercurial,,CVS..
+1. 소프트웨어 공학이란?
 
-- 프로그래밍 언어
-고급언어에서 저급언어로 변환되는 과정에 따르 분류
-아래는 0과1 기계어로 바뀌는 시점에 따른 분류
-1,컴파일 언어
-C,C++,Go..ObjectiveC
-고급언어를  기계어로 번역해주는 것을 컴파일이라 하고 그렇게 번역되는 언어를 컴파일 언어.
-예를 들어 한글소설 한권을 영어로 번역이 완료된 후  영문책으로 다시 배포하는것.
-사용자 입장에서는 빠르지만 프로그래머 입장에서는 수정 또는 개정배포시 다시 작업을 다시해야 한다
-2.바이트코드 언어
-Java,C#
-시스템 또는 32/64bit 에 따른 기계어 인식이 다르기 때문에 컴파일을 완료해놓은다음
-중간언어를 번역해 줄수 있는 번역기가 해당 시스템에 설치가  되어 시스템에 맞는 중간번역기가 있어야 한다 (시스템에 JVM 자바가상머신 설치해야함 )
-3.인터프리터 언어
-BASIC,JavaScript,Python,Ruby
-동시통역과 같은 필요한 시점에 필요한 부분만을 배포하는것
+   공학이란? 사람에게 유용한것을 만드는 학문
 
-- 프로그래밍 패러다임에 따른 분류
-객체지향 프로그램밍 패러다임
--프로그램을 상호작용하는 객체들의 집합으로 표현
-컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위 ,즉 "객체"들의 모임으로 파악하여
-객체간의 상호작용으로 프로그램의 동작을 구현하고자 하는 것
-클래스 -------------------------------> 객체
-            실질적인 형태(클래스의 객체화)
-객체 Object- 상태와 행위를 가지는 형체
-개개인은 사람의 객체
-클래스 Class
-객체가 가질 수 있는 속성과 행위를 정의하는 틀(템플릿,설계도)
-공통된 특징들을 하나로 정의하는것이 클래스
-Class --> Object
-함수형 프로그래밍 패러다임
--프로그램을 상태값을 지니지 않는 함수값들의 연속으로 표현
+   소프트웨어의 개발,운용,유지보수 및 폐기에 대한 체계적인 접근 방법을 정리해놓은 학문
+
+2. 소프트웨어 개발 생명주기 모델
+
+   * Software Development Life Cycle Model
+
+   * 소프트웨어를 어떻게 개발할 것인가에 대한 전체적인 흐름
+
+   * 주먹구구식,폭포수,프로토타이핑,나선형
+     * 폭포수 모델
+
+       ![](data:image/png;base64,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)
+
+     * 프로토타이핑
+
+       ![](data:image/png;base64,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)
+
+     * 나선형
+
+       ![](data:image/jpeg;base64,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)
+
+3. 소프트웨어 개발 방법론
+
+   * 소프트웨어를 생산하는데 필요한 반복적인 과정을을 정리한 것
+
+   * 구조적 프로그래밍,개체지향 ,고속개발 방법론,익스트림 프로그래밍(Agile),스크럼(Agile) ,UP,애자일 개발 프로세스
+
+     * 애자일 개발 프로세스
+
+       다른 고전적인 방법론과 구별되는 가장 큰 차이점은 less document-oriented 즉 문서를 통한 개발 방법이 아니라 , Code-oriented 실질적인 코딩을 통한 방법론
+       앞을 예측하여 개발을 하지 않고, 일정한 주기를 가지고 끊임없이 프로토 타입을 만들어내며 그때 그때 필요한 요구를 더하고 수정하여 하나의 커다란 소프트웨어를 개방해 나가는 Adaptive style
+       특정한 개발 방법론을 가리키는 말이 아니며 애자일(Agile =기민한,좋은 것을 빠르고 낭비없게 만드는것) 개발을 가능하게 해주는 다양한 방법론 전체를 일컫는 말
+
+4. UML
+
+   * 통합 모델링 언어
+   * Unified Modeling Language
+   * 표준화된 범용 모델링 언어
+   * 객체지향 소프트웨어 집약 시스템을 개발 할 때 산출물 명세화,시각화,문서화 할때 사용
+
+5. TTD
+
+   * Test-driven development
+   * 테스트 주도 개발
+   * 매우 짧은 개발 사이클을 반복하는 소프트웨어 개발 프로세스 중 하나이다.
+     * 결함을 점검하는 자동화된 테스트 케이스를 작성
+     * 케이스를 통과하기 위한 최소한의 양의 코드를 생성
+     * 새 코드를 표준에 맞도록 리픽토링
+
+6. PDD
+
+   * 계획 기반 개발
+   * Plan-driven development
+   * 계획을 세우고 그 계획을 실천하는데에 많은 시간과 노력을 할애하는 개발 방법이다
+
+7. 형상관리
+
+   * Software Configuration Management
+   * 소프트웨어 개발 및 유지보수 과정에서 발생하는 소스코드,문서,인터페이스 등 각종 결과물에 대해 형상을 만들고 이들 형상에 대한 변경을 체계적으로 관리,제어하기 위한 활동
+
+8. 버전관리
+
+   * 형상관리의 일무
+
+   * 일반적인 소프트웨어 소스 코드만의 형상을 관리하는 것
+
+   * 형상관리 툴
+
+     SVN(Subversion),Git,Mercurial,,CVS..
+
+## 프로그래밍 언어
+
+1. 프로그래밍 언어
+
+   고급언어에서 저급언어로 변환되는 과정에 따른 분류
+
+   *아래는 0과1 기계어로 바뀌는 시점에 따른 분류*
+
+   * 컴파일 언어
+     * C,C++,Go..ObjectiveC
+     * 고급언어를  기계어로 번역해주는 것을 컴파일이라 하고 그렇게 번역되는 언어를 컴파일 언어. 예를 들어 한글소설 한권을 영어로 번역이 완료된 후  영문책으로 다시 배포하는것.
+     * 사용자 입장에서는 빠르지만 프로그래머 입장에서는 수정 또는 개정배포시 다시 작업을 다시해야 한다
+   * 바이트코드 언어
+     * Java,C#
+     * 시스템 또는 32/64bit 에 따른 기계어 인식이 다르기 때문에 컴파일을 완료해놓은다음 중간언어를 번역해 줄수 있는 번역기가 해당 시스템에 설치가  되어 시스템에 맞는 중간번역기가 있어야 한다 (시스템에 JVM 자바가상머신 설치해야함 )
+   * 인터프리터 언어
+     * BASIC,JavaScript,Python,Ruby
+     * 동시통역과 같은 필요한 시점에 필요한 부분만을 배포하는것
+
+2. 프로그래밍 패러다임에 따른 분류
+
+   * 객체지향 프로그램밍 패러다임
+     * 프로그램을 상호작용하는 객체들의 집합으로 표현
+
+     * 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위 ,즉 "객체"들의 모임으로 파악하여 객체간의 상호작용으로 프로그램의 동작을 구현하고자 하는 것
+
+     * 클래스 --------------------------------------> 객체
+       ​          실질적인 형태(클래스의 객체화)
+
+       * Object
+
+         상태와 행위를 가지는 형체
+
+         공통의 특징, 예를 들어 개개인은 사람의 객체
+
+       * Class
+
+         객체가 가질 수 있는 공통의 속성과 행위를 정의하는 틀(템플릿,설계도)
+
+         공통된 특징들을 하나로 정의하는것이 클래스
+
+       * Class --> Object
+
+         ![](http://image.slidesharecdn.com/random-150321043709-conversion-gate01/95/-38-638.jpg?cb=1427024328)
+
+   * 함수형 프로그래밍 패러다임
+
+     * 프로그램을 상태값을 지니지 않는 함수값들의 연속으로 표현
+
+## 프로그래밍 용어
+
+
 
 - FrontEnd BackEnd
+
+  ![](http://cfile22.uf.tistory.com/image/26237E4E5664EE3808CA84)
+
+  ![](http://cfile22.uf.tistory.com/image/226E044E5664EE3B300747)
+
 - Thread
-프로세스는 실행프로그램의 단위
-하나의 프로세스 내에서 작업이 실행되는 흐름의 단위
+  프로세스는 실행프로그램의 단위
+  하나의 프로세스 내에서 작업이 실행되는 흐름의 단위
 
 - Multi Thread
-하나의 프로세스에서 여러개의 thread가 다중으로 실행되는 있는 상태
+  하나의 프로세스에서 여러개의 thread가 다중으로 실행되는 있는 상태
+
 - Library
-특정 기능을 수행할 수 있는 클래스 또는 함수의 집합체
-예) 수학 라이브러리,에니메이션 라이브러리,문자열 라이브러리
+  특정 기능을 수행할 수 있는 클래스 또는 함수의 집합체
+  예) 수학 라이브러리,에니메이션 라이브러리,문자열 라이브러리
 
 - API
-Application Programing interface
-응용 소프트웨어 프로그래밍 접합부
-응용 소프트웨어와 프레임워크 사이의 중간매체
-소프트웨어간의 통신을 위해 메시지를 전달하는 방식 등이 결정된 것
+  Application Programing interface
+  응용 소프트웨어 프로그래밍 접합부
+  응용 소프트웨어와 프레임워크 사이의 중간매체
+  소프트웨어간의 통신을 위해 메시지를 전달하는 방식 등이 결정된 것
 
 - Framework
-구조적으로 고정된 부분을 재사용 할 수 있도록 하고 ,응용별 특정 기능을 추가적인 사용자 작성코드에
-의해 선택적으로 구현 가능하도록 하는 포괄적인 추상구조. 그리고 이를 지원하는 스프트웨어 플랫폼
-비유해 보자면
-프레임 워크- 국가(정부)
-프레임 워크의 하위 프레임워크-정부부처
-API - 국가기관
-Libray - 직무전문가
-프로그램밍 언어 - 국가 통용언어
-레퍼런스 문서 - 국가 조직도 및 기능설명서
-Django FW+Python
-Django 라는 나라 모양에 내가 원하는 일을 할수 있는 기업을 세우는것
-Django 라는 나라에서는 Python이라는 언어를 통해 의사소통을 할수 있다
+  구조적으로 고정된 부분을 재사용 할 수 있도록 하고 ,응용별 특정 기능을 추가적인 사용자 작성코드에
+  의해 선택적으로 구현 가능하도록 하는 포괄적인 추상구조. 그리고 이를 지원하는 스프트웨어 플랫폼
+  비유해 보자면
+  프레임 워크- 국가(정부)
+  프레임 워크의 하위 프레임워크-정부부처
+  API - 국가기관
+  Libray - 직무전문가
+  프로그램밍 언어 - 국가 통용언어
+  레퍼런스 문서 - 국가 조직도 및 기능설명서
+  Django FW+Python
+  Django 라는 나라 모양에 내가 원하는 일을 할수 있는 기업을 세우는것
+  Django 라는 나라에서는 Python이라는 언어를 통해 의사소통을 할수 있다
 
 - 디자인패턴
-프로그램 개발에서 자주 나타나는 과제를 해결하기 위한 방법중 하나
-과거의 소프트웨엉 개발 과정에서 발견된 설계의 노하우에 이름을 붙여 이후에 재이용하기 좋은
-형태로 묶어서 정리한 것
-프로그램을 설계하는 노하우
-MVC(Model-View-Controller)  class 들간의 사용 노하우
-MVVM(Model-View-ViewModel)
-Observer
-Singleton
-Prototype
-......
+  프로그램 개발에서 자주 나타나는 과제를 해결하기 위한 방법중 하나
+  과거의 소프트웨엉 개발 과정에서 발견된 설계의 노하우에 이름을 붙여 이후에 재이용하기 좋은
+  형태로 묶어서 정리한 것
+  프로그램을 설계하는 노하우
+  MVC(Model-View-Controller)  class 들간의 사용 노하우
+  MVVM(Model-View-ViewModel)
+  Observer
+  Singleton
+  Prototype
+  ......
 
 - Reference Document
-레퍼런스 문서
-API에 대해 서술해 놓은 문서
+  레퍼런스 문서
+  API에 대해 서술해 놓은 문서
 
 - IDE(Integrated Development Environment)
-통합개발환경Pycharm
+  통합개발환경Pycharm
 
 - SDK(Software Development Kit)
-소프트웨어 개발에 필요한 도구의 모음
-IDE + Framework +Tools
+  소프트웨어 개발에 필요한 도구의 모음
+  IDE + Framework +Tools
