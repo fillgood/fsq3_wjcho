@@ -4,6 +4,7 @@
 
 1. 컴퓨터의 역사 
 
+
 	a. [진공관](http://jalbum.com/INF_LEARN/2856) 
 
 		
@@ -33,38 +34,20 @@
 
 
 
-<http://it.donga.com/6885/>
-[컴퓨터의 역사](https://ko.wikipedia.org/wiki/)
-[개인용_컴퓨터](https://ko.wikipedia.org/wiki/)
-<https://ko.wikipedia.org/wiki/이진법>
-<https://ko.wikipedia.org/wiki/IEEE_754  부동소수표기>
-<http://d2.naver.com/helloworld/19187>
-+ http://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=102&oid=021&aid=0000071101
-+ http://cappleblog.co.kr/554
-+ https://ko.wikipedia.org/wiki/IPv6#IPv4_.EC.A3.BC.EC.86.8C.EC.9D.98_IPv6_.ED.98.95.ED.83.9C
-+ http://www.ibm.com/support/knowledgecenter/ko/ssw_i5_54/rzai2/rzai2compipv4ipv6.htm
-+ http://it.donga.com/4096/
-+ http://jsy6036.tistory.com/entry/폰-노이만-구조와-하버드-구조
-+ http://yms2047.tistory.com/entry/폰-노이만-하버드-구조
-+ http://overit.tistory.com/entry/하버드구조-폰노이만구조
-+ https://ko.wikipedia.org/wiki/하버드_아키텍처
-+ https://ko.wikipedia.org/wiki/폰_노이만_구조
-
-1바이트=8비트=0과1이 8개
-32비트=4바이트=0과1이 32개
-2^32승일 경우 4GB이므로 32비트운영체제에서는 4 GB 이상을 사용할수 없다
-2^64일 경우 192GB
-
-IPv4 32bit
-IPv6 128bit
-
-주기억장치 메모리
-보조기억장치 하드디스크
-제어/연산장치 CPU
-
-- 폰노이만구조
-메모리속박 및 버스 병목문제
-데이터 병목현상이 생김
-데이타버스
-
-CPU L1/L2 캐쉬메모리
+### _Reference links_
+	
+* [컴퓨터의 역사](https://ko.wikipedia.org/wiki/)
+* [컴퓨터의 역사-2](http://it.donga.com/6885/)
+* [개인용_컴퓨터](https://ko.wikipedia.org/wiki/)
+* [이진법(二進法, binary)](https://ko.wikipedia.org/wiki/이진법)
+* [IEEE_754 부동소수표기](https://ko.wikipedia.org/wiki/IEEE_754)
+* [한글 인코딩의 역사와 유니코드](http://d2.naver.com/helloworld/19187)
+* [32비트 윈도우의 4GB 메모리 인식 한계란 무엇인가?](http://cappleblog.co.kr/554)
+* [IPv6(Internet Protocol version 6)](https://ko.wikipedia.org/wiki/IPv6#IPv4_.EC.A3.BC.EC.86.8C.EC.9D.98_IPv6_.ED.98.95.ED.83.9C)
+* [IPv4](https://ko.wikipedia.org/wiki/IPv4)
+* [램(RAM)](http://it.donga.com/4096/)
+* [폰-노이만-구조와-하버드-구조](http://jsy6036.tistory.com/entry/폰-노이만-구조와-하버드-구조)
+* [폰-노이만-하버드-구조](http://yms2047.tistory.com/entry/폰-노이만-하버드-구조)
+* [하버드구조-폰노이만구조](http://overit.tistory.com/entry/하버드구조-폰노이만구조)
+* [하버드_아키텍처](https://ko.wikipedia.org/wiki/하버드_아키텍처)
+* [폰 노이만 구조](https://ko.wikipedia.org/wiki/폰_노이만_구조)
