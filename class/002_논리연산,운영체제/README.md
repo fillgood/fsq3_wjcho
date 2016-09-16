@@ -2,12 +2,12 @@
 
    * [부호비트 및 보수표현](http://bloger.kr/34)
 
-     ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGc_h21XwDhlyUXFC2G4mtQd6bVMQ4nrdqKdsgUDFBggt7X1V)
-     ![](http://cfile3.uf.tistory.com/image/2247934C57148AA40D2774)
-     ![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOFEb7rZxZUDYacrssJ96ylVUWinY23p3Lpmokdclw65fQ4G_mdQ)
-   * [MSB,Most significant Bit](http://bloger.kr/32)
-     * [기본자료형 / 부호없는 정수형](http://ddanzimind.tistory.com/32)	
-   * [진법변환(진수변환) 정리](http://blog.naver.com/PostView.nhn?blogId=andjfrrk&logNo=20017501803)
+     * ![](http://cfile3.uf.tistory.com/image/2247934C57148AA40D2774)
+     * ![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOFEb7rZxZUDYacrssJ96ylVUWinY23p3Lpmokdclw65fQ4G_mdQ)
+     * ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGc_h21XwDhlyUXFC2G4mtQd6bVMQ4nrdqKdsgUDFBggt7X1V)
+* [MSB,Most significant Bit](http://bloger.kr/32)
+   * [기본자료형 / 부호없는 정수형](http://ddanzimind.tistory.com/32)	
+* [진법변환(진수변환) 정리](http://blog.naver.com/PostView.nhn?blogId=andjfrrk&logNo=20017501803)
    * [bit Mask 란?](http://blog.naver.com/PostView.nhn?blogId=skout123&logNo=50128841464)
    * & vs && 과 | vs ||과 ~ vs ! 의 사용시 주의 
 2. 운영체제
