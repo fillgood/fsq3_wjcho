@@ -1,6 +1,8 @@
 1. 컴퓨터의 연산
+
    * [부호비트 및 보수표현](http://bloger.kr/34)
      ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGc_h21XwDhlyUXFC2G4mtQd6bVMQ4nrdqKdsgUDFBggt7X1V)
+     ![](http://cfile3.uf.tistory.com/image/2247934C57148AA40D2774)
      ![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOFEb7rZxZUDYacrssJ96ylVUWinY23p3Lpmokdclw65fQ4G_mdQ)
    * [MSB,Most significant Bit](http://bloger.kr/32)
      * [기본자료형 / 부호없는 정수형](http://ddanzimind.tistory.com/32)	
@@ -42,6 +44,7 @@
              준비상태 큐 마다 다른 스케줄링 기법 사용가능
              다른 준비상태 큐로 이동 불가
              하위단계 준비 큐에 있는 프로세스를 실행하는 도중이라도 상위 단계 준비사이에  큐에 프로세스가 들어오면 상위단계  프로세스에게 CPU 할당
+
         2. 주기억장치 관리
            * 단순관리
              자기의 프로세스영역이 아닌 곳에서 실행시 강제종료할 수 있다
