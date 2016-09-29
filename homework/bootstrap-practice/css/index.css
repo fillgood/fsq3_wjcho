@@ -1,31 +1,32 @@
-nav.navbar-no-margin {
+.navbar-no-magin {
   margin: 0;
 }
 
-.index-content .index-image-container {
+.MainSearch .MainSearch-img {
   position: relative;
-  background-image: url(../images/index-bg.jpg);
-  background-position: 50% top;
-  background-repeat: no-repeat;
-  background-color: black;
   height: 678px;
+  background-color: black;
+  background-image: url(../images/index-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
 }
 
-.index-content .index-image-container .caption-container {
+.MainSearch .MainSearch-img .MainSearch-typo {
   position: absolute;
+  top: 169px;
   left: 50%;
-  top: 160px;
-  margin-left: -420px;
   color: white;
-  text-align: right;
+  width: 364px;
+  height: 75px;
+  margin-left: -418px;
 }
 
-.index-content .index-image-container .caption-container .caption-top {
+.MainSearch .MainSearch-img .MainSearch-typo .MainSearch-typo-top {
   font-size: 22px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
-.index-content .index-image-container .caption-container .caption-bottom {
+.MainSearch .MainSearch-img .MainSearch-typo .MainSearch-typo-bottom {
   font-size: 36px;
 }
 
