@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+
+  <div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand navbar-brand-img">
+            <img class="navbar-brand-img"src="images/fastcampus_logo_345x76.png">
+          </a>
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                캠프/클래스/워크샾
+                <!-- <span class="caret"></span> -->
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                <li role="presentation"><a role="menuitem" tabindex="-1">Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Something else here</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                외국어
+                <!-- <span class="caret"></span> -->
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                <li role="presentation"><a role="menuitem" tabindex="-1">Action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Another action</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Something else here</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="fat-menu" class="dropdown">
+              <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                스쿨
+                <!-- <span class="caret"></span> -->
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                <li role="presentation"><a role="menuitem" tabindex="-1">웹프로그래밍스쿨</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">프론트엔드스쿨</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">안드로이드스쿨</a></li>
+                <!-- <li role="presentation" class="divider"></li> -->
+                <li role="presentation"><a role="menuitem" tabindex="-1">IOS개발스쿨</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="fat-menu" class="dropdown">
+              <a id="drop4" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                기업교육
+                <!-- <span class="caret"></span> -->
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                <li role="presentation"><a role="menuitem" tabindex="-1">Lorem ipsum dolor.</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">Lorem ipsum dolor.</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1">안드로이드스쿨</a></li>
+                <!-- <li role="presentation" class="divider"></li> -->
+                <li role="presentation"><a role="menuitem" tabindex="-1">IOS개발스쿨</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+  <div class="index-contents">
+    <!-- <div class="jumbotron"> -->
+    <div class="container slide-margin">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/패스트캠퍼스  커리어 성장을 위한 최고의 실무교육 아카데미(11).png" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/패스트캠퍼스  커리어 성장을 위한 최고의 실무교육 아카데미.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          ...
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- index-contents 정의 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <p class="first-contents">dfsfsdf</p>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <p class="first-contents">dfsfsdf</p>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <p class="first-contents">dfsfsdf</p>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <p class="first-contents">dfsfsdf</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12"><h4>곧 개강하는 코스</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="images/HL_data_camp_scikit_2-1.png" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-3 ">
+        <a href="#" class="thumbnail second-image-contents ">
+          <img src="images/HL_data_class_dafirst.png" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-3 ">
+        <a href="#" class="thumbnail second-image-contents">
+          <img src="images/HL_data_camp_scikit_2-1.png" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-3 ">
+        <a href="#" class="thumbnail second-image-contents">
+          <img src="images/HL_data_camp_scikit_2-1.png" alt="...">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+        <a href="#" class="thumbnail second-image-contents">
+          <img src="images/HL_data_camp_scikit_2-1.png" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-3 ">
+        <a href="#" class="thumbnail second-image-contents ">
+          <img src="images/HL_data_class_dafirst.png" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-3 ">
+        <a href="#" class="thumbnail second-image-contents">
+          <img src="images/HL_data_camp_scikit_2-1.png" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-3 ">
+        <a href="#" class="thumbnail second-image-contents">
+          <img src="images/HL_data_camp_scikit_2-1.png" alt="...">
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!-- 지도 -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3">
+      <p>Email: help@fastcampus.co.kr
+        <br>Phone: 02-501-9396
+        <br>[문의시간]
+        <br>월~금: 오전 10:00-오후 9:00
+        <br>토~일: 오후 2:00-오후 9:00
+        <br>
+        <br>[수강료 입금 계좌]
+        <br>우리은행 / 1005-902-393657
+        <br>패스트트랙아시아(주)</p>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h4>[본관]</h4>
+        <p>서울시 강남구 도산대로4길 13
+          <br>(서울시 강남구 논현1동 2-9)
+          <br>대기빌딩 지하 2층(사무실) / 1층 / 4층
+          <br>*지하철 3호선 신사역 1번 출구</p>
+          <div class="thumbnail second-image-contents">
+            <img src="images/print.png" alt="...">
+            <div class="caption">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h4>[본관]</h4>
+          <p>서울시 강남구 도산대로4길 13
+            <br>(서울시 강남구 논현1동 2-9)
+            <br>대기빌딩 지하 2층(사무실) / 1층 / 4층
+            <br>*지하철 3호선 신사역 1번 출구</p>
+            <div class="thumbnail second-image-contents">
+              <img src="images/print.png" alt="...">
+              <div class="caption">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <h4>[본관]</h4>
+            <p>서울시 강남구 도산대로4길 13
+              <br>(서울시 강남구 논현1동 2-9)
+              <br>대기빌딩 지하 2층(사무실) / 1층 / 4층
+              <br>*지하철 3호선 신사역 1번 출구</p>
+              <div class="thumbnail second-image-contents">
+                <img src="images/print.png" alt="...">
+                <div class="caption">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p>
+            <h3>NEWSLETTER</h3>
+          </p>
+        </div>
+
+        <div class="container">
+          <p>
+            <h4>패스트캠퍼스의 뉴스레터를 구독하시면, 간편하게 신규 교육과정 및 이벤트/세미나 소식을 메일로 받아보실 수 있습니다!
+            </h4>
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">이메일 주소</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+                </div>
+                <button type="submit" class="btn btn-default">제출</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="container-fluid footer-contents">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-3">
+                <p>FAST CAMPUS
+                  <br>패스트트랙아시아(주)
+                  <br>패스트트랙아시아(주) 대표 : 박지웅
+                  <br>패스트캠퍼스 대표 : 이강민
+                  <br>개인정보책임관리자 : 이강민
+                  <br>사업자번호 : 211-85-71188
+                  <br>통신판매업 신고번호
+                  <br>: 제 2014-서울강남-01723호
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-5">
+                <p>CONTACT
+                  <br>[ 결제 / 환불 / 계산서, 영수증 및 수강확인증 / 강의장 위치 문의 시 ]
+                  <br>이메일 : help@fastcampus.co.kr
+                  <br>전화번호 : 02-501-9396
+                  <br>
+                  <br>주소 : 서울시 강남구 논현1동 2-9
+                  <br>대기빌딩 1,4층
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <p>ETC
+                  <br>이용약관
+                  <br>개인정보취급방침
+                  <br>
+                  <br>환불 규정
+                  <br>About FC
+                </p>
+              </div>
+            </div>
+          </div>
+
+<!-- <footer></footer> -->
+<div class="container-fluid footer-subcontents">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <p>
+        ©2014 All rights reserved. | Hosting by (주)코드엠
+      </p>
+    </div>
+  </div>
+</div>
+
+      </body>
+      </html>

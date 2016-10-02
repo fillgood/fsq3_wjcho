@@ -1,0 +1,40 @@
+.navbar-no-magin {
+  margin: 0; }
+
+.MainSearch .MainSearch-img {
+  position: relative;
+  height: 678px;
+  background-color: black;
+  background-image: url(../images/index-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0; }
+  .MainSearch .MainSearch-img .MainSearch-typo {
+    position: absolute;
+    top: 169px;
+    left: 50%;
+    color: white;
+    width: 364px;
+    height: 75px;
+    margin-left: -418px; }
+    .MainSearch .MainSearch-img .MainSearch-typo .MainSearch-typo-top {
+      font-size: 22px;
+      margin-bottom: 0; }
+    .MainSearch .MainSearch-img .MainSearch-typo .MainSearch-typo-bottom {
+      font-size: 36px; }
+
+.input-group .SearchForm--wide {
+  width: 434px;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 50px; }
+
+.input-group .fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+/*# sourceMappingURL=index.nested.css.map */

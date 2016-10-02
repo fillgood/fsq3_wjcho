@@ -1,0 +1,65 @@
+nav.navbar-no-margin {
+  margin: 0;
+}
+
+div.slide-margin {
+  margin-top: 70px;
+}
+
+.navbar-brand-img {
+  position: relative;
+  margin-left: 15px;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.index-contents .slide-image-container {
+  height: 678px;
+  background-color: transparent;
+}
+
+.index-contents .empty-line {
+  height: 50px;
+  background-color: white;
+}
+
+.index-contents .first-contents {
+  background-color: black;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  color: white;
+}
+
+.index-contents .blank-contents {
+  height: 50px;
+}
+
+.index-contents .second-image-contents {
+  padding: 0px;
+  margin: 10px;
+  background-color: red;
+}
+
+.footer-contents {
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: #3d4045;
+  font-size: 14px;
+  color: #808080;
+  font-weight: inherit;
+}
+
+.footer-subcontents {
+  margin-top: 30px;
+  padding-top: 20px;
+  background-color: #43474d;
+  font-size: 14px;
+  color: #808080;
+  font-weight: inherit;
+  height: 67px;
+}
+
+/*# sourceMappingURL=index.css.map */
